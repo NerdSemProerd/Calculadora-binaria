@@ -1,0 +1,29 @@
+/* Estilos para o layout da página */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  .vertical {
+    width: 33.33%;
+    height: 100%;
+    float: left;
+  }
+  .horizontal {
+    width: 66.66%;
+    height: 50%;
+    float: left;
+  }
+  /* Cores de fundo diferentes para cada parte */
+  #parte1 {
+    background-color: #ff9999; /* Vermelho claro */
+  }
+  #parte2 {
+    background-color: #99ccff; /* Azul claro */
+  }
+  #parte3 {
+    background-color: #99ff99; /* Verde claro */
+  }
+  .text_t1{
+    font-family: Arial;
+  }
