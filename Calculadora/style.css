@@ -20,8 +20,13 @@ body, html {
   }
   #parte2 {
     background-color: #99ccff; /* Azul claro */
+    text-align: center;
+    
   }
   #parte3 {
     background-color: #99ff99; /* Verde claro */
+  }
+  .conversores{
+    margin-left: 20px;
   }
   

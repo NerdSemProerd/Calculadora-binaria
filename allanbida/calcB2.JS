@@ -3,6 +3,13 @@ function convert(){
     const valorinserido = document.getElementById('valorinserido').value;
     const resultado = document.getElementById('resultado');
 
+    const val_decimalnc = document.getElementById(`decimalnc`).value;
+    const val_decimalc = convert(val_decimalc);
+
+
+
+
+
     resultado.innerHTML = '';
 
     if (qualconversao === 'hextobin'){
