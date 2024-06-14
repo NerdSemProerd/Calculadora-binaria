@@ -51,7 +51,7 @@ function filtro_hex(event){
 }
 function filtro_com(event){
     let input = event.target.value;
-    let filtro = input.replace(/[^0-9A-Fa-f]/g, '')
+    let filtro = input.replace(/[^01]/g, '')
     event.target.value = filtro;
 }
 
