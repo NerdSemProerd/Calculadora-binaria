@@ -7,7 +7,6 @@ function filtro_calc(event) {
 }
 function filtro_conversor(event){
     var conv_de = document.getElementById('De').value;
-    console.log(conv_de)
     switch (true) {
         case conv_de === 'dec':
             filtro_dec(event)
