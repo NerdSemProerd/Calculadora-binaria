@@ -45,7 +45,7 @@ function filtro_oct(event){
 }
 function filtro_hex(event){
     let input = event.target.value;
-    let filtro = input.replace(/[^0-9A-Fa-f]/g, '')
+    let filtro = input.toUpperCase().replace(/[^0-9A-Fa-f]/g, '')
     event.target.value = filtro;
 }
 function filtro_com(event){
