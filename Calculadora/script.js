@@ -54,4 +54,7 @@ function filtro_com(event){
     event.target.value = filtro;
 }
 
-
+function calcular() {
+    var operacao = document.getElementById('Operacao').value;
+    var operacao = document.getElementById('Operacao').value;
+}   var operacao = document.getElementById('Operacao').value;
