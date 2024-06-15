@@ -18,20 +18,21 @@
 
       <div class="div_inserir">
         <div class="input-group mb-3">
-          <input type="text" class="form-control" placeholder="Entrada 1" oninput="filtro_calc(event)">
+          <input id="calc_ent01" type="text" class="form-control" placeholder="Entrada 1" oninput="filtro_calc(event)">
         </div>
-        <select class="form-select mb-3">
-          <option value="">Somar</option>
-          <option value="">Subtrair</option>
-          <option value="">Multiplicar</option>
-          <option value="">Dividir</option>
+        <select id="Operacao" class="form-select mb-3">
+          <option value="som">Somar</option>
+          <option value="sub">Subtrair</option>
+          <option value="mul">Multiplicar</option>
+          <option value="div">Dividir</option>
         </select>
         <div class="input-group mb-3">
-          <input type="text" class="form-control" placeholder="Entrada 2" oninput="filtro_calc(event)">
+          <input id="calc_ent02" type="text" class="form-control" placeholder="Entrada 2" oninput="filtro_calc(event)">
           
         </div>
         <div class="div_resultado">
-          <button type="button" class="btn btn-primary" onclick="converter()">Calcular</button>
+          <button type="button" class="btn btn-primary" onclick="conversao_calc()">Calcular</button>
+          
           <button type="button" class="btn btn-danger" onclick="limpar()">Limpar</button>
           <h2>Resultado=</h2>
         </div>
