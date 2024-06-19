@@ -194,7 +194,7 @@ function filtro_conversor(event) {
 
 function filtro_dec(event) {
     let input = event.target.value;
-    let filtro = input.replace(/[^0-9]/g, '');
+    let filtro = input.replace(/[^-0-9]/g, '');
     event.target.value = filtro;
 }
 
