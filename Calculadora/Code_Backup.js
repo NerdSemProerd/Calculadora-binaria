@@ -1,3 +1,22 @@
+// function ComToDec(value) {
+//     if (value.length === 0) return 0;
+// // b1 b2-8
+// // (-2 ^ n - 1) * b1 + b(2-8) 
+//     const neg = value.charAt(0);
+//     const bin = value.substring(1);
+
+//     return Math.pow(2, value.length - 1) * parseInt(neg) + parseInt(bin, 2);
+// }
+var valorbin;
+var textresult
+function binTOcom(){
+    textresult = valorbin + 1
+}
+
+function DecToCom(switchString){
+
+}
+
 function converter() {
     console.log(entrada)
     var de = document.getElementById('De').value
@@ -27,7 +46,7 @@ function converter() {
             switchString = parseInt(entrada, 16);
             break;
         case 'com':
-            
+            switchString = ComToDec(entrada);
             break;
         default:
             return;
@@ -50,7 +69,7 @@ function converter() {
             resultado = switchString.toString(16).toUpperCase();
             break;
         case 'com':
-            
+            valorbin = switchString.toString(2);
             break;
         default:
             return;
